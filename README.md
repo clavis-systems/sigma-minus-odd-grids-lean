@@ -9,7 +9,7 @@ In the σ⁻ game, pressing a cell flips its neighbours but not the cell itself.
 ## Where to look
 
 - `SigmaMeno/Enunciato.lean` has the definitions and the statement `TeoremaPrincipale`. It was written before the proofs.
-- `SigmaMeno/Globale/Finale.lean` has `teorema_principale`, the proof of that statement.
+- `SigmaMeno/Globale/Simmetriche.lean` has `teorema_principale`, the proof of that statement.
 - `Verifica.lean` prints the axioms used. Only `propext`, `Classical.choice` and `Quot.sound` appear.
 
 ## How to build
